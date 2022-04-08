@@ -1,0 +1,10 @@
+site:
+  name: Marginalia Makes A Point
+  encoding: UTF-8
+  talking-points:
+    - Pretty
+    - Far
+    - From
+    - 100
+    - Lines
+  footer: That's all folks!

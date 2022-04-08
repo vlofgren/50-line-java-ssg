@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="{{site.encoding}}" />
+    <title>{{site.name}} - Hello!</title>
+  </head>
+  <body>
+    <h1>{{site.name}} Says Hi!</h1>
+    <ul>
+    {{#each site.talking-points}}
+      <li>{{.}}</li>
+    {{/each}}
+    </ul>
+    <p>
+      Don't miss the <a href="other.html">other page!</a>
+    </p>
+    <footer>{{site.footer}}</footer>
+  </body>
+  
+</html>
